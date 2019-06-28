@@ -1,0 +1,32 @@
+<html>
+    <head>
+       <title> Léo Chevalier </title>
+       <meta charset="utf-8" />
+	   <link rel="stylesheet" href="resumé.css"/>
+     <link rel="stylesheet" href="contacts.css"/>
+     <script type="text/javascript" src="js/menu.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    </head>
+    <body>
+    <!--En tête-->
+       <ul class="menu">
+        <li><a href="resumé.html" data-hover="Acceuil">Accueil</a></li>
+        <li><a href="cv.html" data-hover="CV">Mon CV</a></li>
+        <li><a href="projets.html" data-hover="Projets">Mes Projets</a></li>
+        <li><a href="compétences.html" data-hover="Compétences">Mes Compétences</a></li>
+        <li><a href="contacts.html" data-hover="Contacts">Me Contacter</a></li>
+      </ul>
+     <!--Contenu de la page-->
+     <h2 class="titre">Me contacter</h2>
+      <div class="column">
+        <form  method="post" action="mail.php">
+          <input type="text" id="nom" name="user_nom" placeholder="Votre nom...">
+          <input type="email" id="mail" name="user_mail" placeholder="Votre email...">
+          <input type="text" id="sujet" name="user_sujet" placeholder="Sujet...">
+          <textarea id="msg" name="user_msg" placeholder="Ecrivez..." style="height:170px"></textarea>
+          <input type="submit" id="envoi" value="Envoyer">
+        </form>
+      </div>
+   </body>
+</html> 
+<!--LéoChevalier-->

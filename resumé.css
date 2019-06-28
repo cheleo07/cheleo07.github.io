@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Muli);
+body{
+  width: 100%;
+  height: 100%;
+	max-width: 2500px;
+  min-width: 1900px;
+  min-height: 1000px;
+  max-height: 1600px;
+  margin:auto;
+}
+.menu {
+  font-family: 'Muli', Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  line-height: 1em;
+  margin: 15px 400px;
+  text-transform: uppercase;
+}
+.menu li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 0.6em;
+  padding: 12px 15px;
+  position: relative;
+}
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu li:before,  
+.menu li:after {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  height: 2px;
+  width: 35%;
+  background-color: #528cb3;
+  position: absolute;
+  content: '';
+  opacity: 0;
+}
+.menu li:before {
+  top: 0;
+  left: 0;
+}
+.menu li:after {
+  bottom: 0;
+  right: 0;
+}
+.menu li:hover:before,
+.menu li.hover:before,
+.menu li:hover:after,
+.menu li.hover:after {
+  opacity: 1;
+}
+.menu li:hover:before,
+.menu li.hover:before {
+  left: 65%;
+}
+.menu li:hover:after,
+.menu li.hover:after {
+  right: 65%;
+}
+body {
+  background-color: #212121;
+}
+.titre{
+  font-family: 'Muli', Arial, sans-serif;
+  font-size: 50px;
+  letter-spacing: 5px;
+  line-height: 1em;
+  margin: 150px 360px;
+  text-transform: uppercase;
+  color: #528cb3;
+}
+.pres{
+  font-family: 'Muli', Arial, sans-serif;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  line-height: 1em;
+  margin: -100px 570px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.lol {
+  margin-left: 500px;
+}
+/*LéoChevalier*/
