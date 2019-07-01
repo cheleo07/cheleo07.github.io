@@ -84,4 +84,14 @@ body {
 .lol {
   margin-left: 500px;
 }
+
+@media(min-width:768px) 
+{
+  body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    background-color: white;
+  }
+}
 /*LéoChevalier*/
