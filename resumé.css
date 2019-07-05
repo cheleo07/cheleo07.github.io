@@ -84,11 +84,4 @@ body {
 .lol {
   margin-left: 500px;
 }
-
-@media(max-width:500px) 
-{
-  body {
-    background-color: white;
-  }
-}
 /*LéoChevalier*/
