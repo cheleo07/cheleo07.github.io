@@ -8,41 +8,6 @@ body{
   max-height: 1600px;
   margin:auto;
 }
-.container{
-width: 400px;
-margin-top: 30px;
-margin-left: 300px;
-}
-
-.container .box{
-  width: 25%;
-  height: 25%;
-}
-
-.container .box h2{
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  font-family: 'Muli', Arial, sans-serif;
-}
-
-.container .box .chart{
-  width: 250px;
-  height: auto;
-  position: relative;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 30px;
-  line-height: 130px;
-  color: #fff;
-  font-family: 'Muli', Arial, sans-serif;
-}
-
-.container .box canvas{
-  position: absolute;
-  width: 130px;
-}
-
 .tech{
   font-family: 'Muli', Arial, sans-serif;
   font-size: 25px;
@@ -66,30 +31,57 @@ margin-left: 300px;
   margin-right: -300px;
   margin-top: 100px;
 }
-
-.container .un{
-  float: left;
+.progress-title{
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 30px;
 }
-
-.container .deux{
-  margin-left: 200px;
+.progress{
+  height: 7px;
+  background: #212121;
+  border-radius: 0;
+  margin-bottom: 30px;
+  overflow: visible;
+  box-shadow: none;
 }
-
-.container .trois{
-  float: left;
+.progress .progress-bar{
+  background: #212121;
+  box-shadow: none;
+  border-bottom: 4px dotted #ff1140;
+  border-radius: 0;
+  position: relative;
+  -webkit-animation: animate-positive 2s;
+  animation: animate-positive 2s;
 }
-
-.container .quatre{
-  margin-left: 200px;
+.progress .progress-bar:before{
+  content: "";
+  border-bottom: 20px solid #ff1140;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
 }
-
-
-.container .cinq{
-  float: left;
+.progress-bar .progress-value{
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  top: -33px;
+  right: 0;
 }
-
-.container .six{
-  margin-left: 200px;
+.progress.yellow .progress-bar,
+.progress.yellow .progress-bar:before{ border-bottom-color: #fec100; }
+.progress.purple .progress-bar,
+.progress.purple .progress-bar:before{ border-bottom-color: #663399; }
+.progress.green .progress-bar,
+.progress.green .progress-bar:before{ border-bottom-color: #0ead69; }
+@-webkit-keyframes animate-positive{
+  0%{ width: 0; }
 }
-
+@keyframes animate-positive{
+  0%{ width: 0; }
+}
 /*LéoChevalier*/
