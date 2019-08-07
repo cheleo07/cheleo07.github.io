@@ -78,6 +78,10 @@ body{
 .progress.purple .progress-bar:before{ border-bottom-color: #663399; }
 .progress.green .progress-bar,
 .progress.green .progress-bar:before{ border-bottom-color: #0ead69; }
+.progress.blue .progress-bar,
+.progress.blue .progress-bar:before{ border-bottom-color: #528cb3; }
+.progress.bluet .progress-bar,
+.progress.bluet .progress-bar:before{ border-bottom-color: #33FFEC; }
 @-webkit-keyframes animate-positive{
   0%{ width: 0; }
 }
