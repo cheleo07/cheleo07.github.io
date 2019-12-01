@@ -37,16 +37,7 @@ h3{
 	font-family: 'Muli', Arial, sans-serif;
 	font-size: 200%;
 }
-.stage{
-	margin-top: 10%;
-}
-.stage-text{
-	margin-top: 5%;
-}
-.stage2{
-	margin-top: 5%;
-}
-.stage-text2{
-	margin-top: 5%;
+.block{
+	margin-bottom: 8%;
 }
 /*LéoChevalier*/
